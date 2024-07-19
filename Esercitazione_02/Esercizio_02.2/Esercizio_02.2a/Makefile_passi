@@ -1,0 +1,13 @@
+CC = g++
+CFLAGS = -Wall --std=c++11
+
+passi_reticolo.exe : passi_reticolo.o random.o
+	$(CC) random.o passi_reticolo.o -o passi_reticolo.exe
+passi_reticolo.o : passi_reticolo.cpp
+	$(CC) -c passi_reticolo.cpp -o passi_reticolo.o $(CFLAGS)
+random.o : random.cpp random.h
+	$(CC) -c random.cpp -o random.o $(CFLAGS)
+run :
+	./passi_reticolo.exe
+clean :
+	rm *.o passi_reticolo.exe seed.out

@@ -1,0 +1,13 @@
+CC = g++
+CFLAGS = -Wall --std=c++11
+
+passi_continuo.exe : passi_continuo.o random.o
+	$(CC) random.o passi_continuo.o -o passi_continuo.exe
+passi_continuo.o : passi_continuo.cpp
+	$(CC) -c passi_continuo.cpp -o passi_continuo.o $(CFLAGS)
+random.o : random.cpp random.h
+	$(CC) -c random.cpp -o random.o $(CFLAGS)
+run :
+	./passi_continuo.exe
+clean :
+	rm *.o passi_continuo.exe seed.out
