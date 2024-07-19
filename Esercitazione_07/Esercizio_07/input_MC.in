@@ -1,0 +1,21 @@
+1
+0
+1.1
+108
+0.8
+2.5
+4.0/0.2/0.12 (gas/liquido/solido)
+20
+1000
+1/4/20 (solido/liquido/gas)
+
+  ReadInput >> iNVET;
+  ReadInput >> restart;
+  ReadInput >> temp;
+  ReadInput >> npart;
+  ReadInput >> rho;
+  ReadInput >> rcut;
+  ReadInput >> delta;
+  ReadInput >> nblk;
+  ReadInput >> nstep;
+  ReadInput >> neq;
