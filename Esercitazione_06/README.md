@@ -2,7 +2,7 @@ Per la cartella Esercizio_06 valgono le seguenti istruzioni per:
 
 	compilare: make
 
-	eseguire:  ./Monte_Carlo_ISING_1D.exe
+	eseguire:  make run
 
 	cancellare i file prodotti: make clean
 	
