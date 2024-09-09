@@ -2,7 +2,7 @@ Per la cartella Esercizio_07 valgono le seguenti istruzioni per:
 
 	compilare: make
 
-	eseguire:  ./NVE_NVT.exe
+	eseguire:  make run
 
 	cancellare i file prodotti: make clean
 	
