@@ -1,10 +1,6 @@
 # LSN_Domenica_Minervini
 Esercitazioni svolte per l'esame di Laboratorio di Simulazione Numerica
 
-Il materiale proposto per l'esame complessivamente è stato considerato buono.
-Tuttavia sono stati riscontrati degli errori e delle imprecisioni in alcuni grafici.
-Si consiglia di visionare il materiale con cautela. 
-
 In tutte le cartelle Esercitazione è presente il file README.md: bisogna 
 leggerlo prima di aprire tutte le cartelle che costituiscono l'Esercitazione. 
 
